@@ -1,0 +1,6 @@
+---
+fixes:
+  - |
+    Call handler to save Dell switch config so that main task can reflect
+    actual ``changed`` status.
+    `LP#[2168538] <https://bugs.launchpad.net/kayobe/+bug/[2168538]>`__
